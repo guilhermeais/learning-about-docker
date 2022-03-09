@@ -1,0 +1,23 @@
+{
+  "name": "dockerEnviroment",
+  "version": "1.0.0",
+  "description": "Basicamente tenho pouquíssimo conhecimento em Docker, e o objetivo deste repositório é tanto alavancar este conhecimento, quanto reunir informações que possam ser úteis a alguém.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermeais/learning-about-docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilhermeais/learning-about-docker/issues"
+  },
+  "homepage": "https://github.com/guilhermeais/learning-about-docker#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
