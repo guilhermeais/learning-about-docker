@@ -48,3 +48,19 @@ isso vai dependers de como configuramos a nossa package.json
 */
 CMD ["npm", "start"]
 ```
+
+Para buildarmos este arquivo Dockerfile que criamos, iremos usar o comando `docker build -t NOME_PARA_CONTAINER LOCAL_DO_DOCKERFILE`
+
+Depois de buildar o nosso Dockerfile, precisamos rodar ele com o seguinte comando:
+`docker run -p PORTA1:PORTA2 -d`
+
+## (-p) Portas 
+-p: Define as portas
+PORTA1: Porta que vamos acessar no nosso navegador, por exemplo;
+PORTA2: Quando acessarmos a PORTA1, vai redirecionar pra essa lá no Docker.
+
+## (-d) imagem que vamos utilizar 
+É o mesmo nome que demos ao container lá no docker build "NODE_PARA_CONTAINER"
+
+
+### E pronto, temos nosso HELLO WORD e a aplicação toda rodando no Docker!! :D
